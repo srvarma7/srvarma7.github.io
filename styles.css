@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(15, 23, 42, 1);
+}
+
+h10 {
+    line-height: 1rem;
+    color: rgba(212, 222, 239, 1);
+}
+
+h1 {
+    color: rgba(212, 222, 239, 1);
+}
+
+h2 {
+    color: rgba(212, 222, 239, 1);
+}
+
+p {
+    color: rgba(212, 222, 239, 1);
+}
+
+.progress-bar {
+    background: #ff4163;
+    height: 3px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.screen-size-empty-container {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.left-bracket {
+    color: white;
+    font-size: 5rem;
+    transform: scaleY(1.5);
+    transition: linear 0.1s;
+    /* transform: rotate(180deg) scaleY(1.5); */
+}
+.center-bracket {
+    padding: 10px;
+    color: white;
+    font-size: 5rem;
+    font-size: bold;
+    transform: translateY(-5px);
+}
+.right-bracket {
+    color: white;
+    font-size: 5rem;
+    transform: scaleY(1.5);
+    transition: linear 0.1s;
+}
+
+.arrow-stretch {
+    display:inline-block;
+    
+}
+
+.arrow-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid gray;
+}
+
+.main-flex-container {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex: 0 auto;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+    letter-spacing: 0px;
+    line-height: 1.5rem;
+    border: 3px solid yellow;
+}
+
+.intro-flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #73AD21;
+    height: 100vh;
+    text-align: left;
+}
+
+.right-flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+}
