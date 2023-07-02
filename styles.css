@@ -45,7 +45,7 @@ p {
     color: white;
     font-size: 5rem;
     transform: scaleY(1.5);
-    transition: linear 0.1s;
+    transition: ease-out 0.2s;
     /* transform: rotate(180deg) scaleY(1.5); */
 }
 .center-bracket {
@@ -54,12 +54,13 @@ p {
     font-size: 5rem;
     font-size: bold;
     transform: translateY(-5px);
+    transition: ease-out 0.2s;
 }
 .right-bracket {
     color: white;
     font-size: 5rem;
     transform: scaleY(1.5);
-    transition: linear 0.1s;
+    transition: ease-out 0.2s;
 }
 
 .arrow-stretch {
