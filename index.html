@@ -8,20 +8,20 @@
 <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 <!-- JavaScript -->
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <script src="script.js"></script>
     <main>
-      <div class="screen-size-empty-container">
+      <div class="progress-bar" id="progressBar"></div>  
 
-      </div>
+      <div class="screen-size-empty-container", id="topScreenSizeEmptyContainer"></div>
       
       <div class="main-flex-container">
 <!-- Arrows -->
         <div class="arrow-flex-container">
-          <p class="left-bracket arrow-style arrow-stretch">></p>
-          <p class="arrow-style center-bracket">/</p>
-          <p class="right-bracket arrow-style arrow-stretch">></p>
+          <p class="left-bracket arrow-style arrow-stretch" id="leftBracket"><</p>
+          <p class="arrow-style center-bracket" id="centerBracket">/</p>
+          <p class="right-bracket arrow-style arrow-stretch" id="rightBracket">></p>
         </div>
 
         <div class="intro-flex-container center">
@@ -74,9 +74,8 @@
         </div>
       </div>
 
-      <div class="screen-size-empty-container">
+      <div class="screen-size-empty-container", id="bottomScreenSizeEmptyContainer"></div>
 
-      </div>
     </main>
   </body>
 </html>
